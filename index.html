@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>张增强H5考核</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+        <script src="js/jquery-1.8.3.js" charset="utf-8"></script>
+
+    </head>
+    <body>
+        <div id="container">
+            <!-- header标题栏，里面嵌套一个居中的div -->
+            <header class="header">
+                <div class="header-div">
+                    <div class="div-icon"></div>
+                    <div class="div-list">
+                        <ul class="div-list-ul">
+                            <li>首页</li>
+                            <li>直播</li>
+                            <li>分类</li>
+                            <li>游戏</li>
+                            <li>鱼吧</li>
+                        </ul>
+                    </div>
+                    <div class="div-searchBar">
+                        <input type="text" name="searchBar" value="" placeholder="斗鱼直播">
+                        <i class="iconfont icon-sousuo"></i>
+                    </div>
+                    <div class="div-login">
+                        <i class="iconfont icon-user"></i>
+                        <a href="" class="div-login-a">登录</a>
+                        <span>|</span>
+                        <a href="" class="div-login-a">注册</a>
+                    </div>
+                </div>
+            </header>
+            <!-- 左边的section ul布局-->
+            <section class="section-left">
+                <ul class="section-left-list">
+                    <li><i class="iconfont icon-zhibo"></i><span>直播</span></li>
+                    <li><i class="iconfont icon-tuceng"></i><span>分类</span></li>
+                    <li><i class="iconfont icon-paixing"></i><span>排行榜</span></li>
+                    <li><i class="iconfont icon-guanzhu"></i><span>关注</span></li>
+                    <li><i class="iconfont icon-youxi"></i><span>游戏</span></li>
+                    <li><i class="iconfont icon-666"></i><span>客服</span></li>
+                </ul>
+            </section>
+            <div class="middle">
+            <!-- 中间一个大section 上下俩部分-->
+            <section class="section-middle">
+                <div class="middle-titleDiv">
+                    <div class="titleDiv-icon"></div>
+                    <div class="titleDiv-title">
+                        <div class="titleDiv-title-titleName">极客学院的直播</div>
+                        <div class="titleDiv-title-jubao">举报</div>
+                    </div>
+                    <div class="titleDiv-title-type">
+                        热门直播&nbsp;/&nbsp;教育行业&nbsp;/&nbsp;高新培训
+                    </div>
+                    <div class="titleDiv-title-watchNum">
+                        <i class="iconfont icon-guankancishu"></i>
+                        <span>观看10万</span>
+                    </div>
+                    <!-- 关注按钮 -->
+                    <div class="titleDiv-like">
+                        <div class="titleDiv-like-icon">
+                            <i class="iconfont icon-guanzhu"></i>
+                        </div>
+                        <div class="titleDiv-like-num">
+                            23456
+                        </div>
+                    </div>
+                    <!-- 二维码 -->
+                    <div class="like-code">
+                        <div class="like-code-arrow"></div>
+                        <div class="like-code-line"></div>
+                        <div class="like-code-pic"></div>
+                    </div>
+                </div>
+                <div class="middle-videoDiv">
+                    <video id="video" preload="metadata" width="816" height="340" poster="img/post.png">
+                        <source src="video/oceans.mp4" type="video/mp4">
+                        <source src="video/oceans.ogv" type="video/ogm">
+                        <source src="video/oceans.webm" type="video/webm">
+                    </video>
+                    <div class="videoDiv-btnDiv">
+                        <a id="playBtn"><i class="iconfont icon-bofangqibofang"></i></a>
+                        <a id="voiceBtn"><i class="iconfont icon-tushubofangqiyousheng"></i></a>
+                        <a id="fullScreenBtn"><i class="iconfont icon-bofangqiquanping"></i></a>
+                    </div>
+                </div>
+            </section>
+                <!-- 右边一个section 上下俩部分-->
+                <section  class="section-right">
+
+                    <div class="right-pic"></div>
+                    <div class="right-live">
+                        <div class="right-live-title">
+                            直播公告
+                        </div>
+                        <div class="right-live-text">
+                            这是直播公告<br>
+                            1、不准义气用事<br>
+                            2、严格遵守弹幕礼仪
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="js/main.js" charset="utf-8"></script>
+    </body>
+</html>
